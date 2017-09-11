@@ -166,6 +166,19 @@ helloworld/fast:
 .PHONY : helloworld/fast
 
 #=============================================================================
+# Target rules for targets named iostream
+
+# Build rule for target.
+iostream: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 iostream
+.PHONY : iostream
+
+# fast build rule for target.
+iostream/fast:
+	$(MAKE) -f CMakeFiles/iostream.dir/build.make CMakeFiles/iostream.dir/build
+.PHONY : iostream/fast
+
+#=============================================================================
 # Target rules for targets named basic
 
 # Build rule for target.
@@ -284,6 +297,33 @@ helloworld.s: helloworld.cpp.s
 helloworld.cpp.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/helloworld.cpp.s
 .PHONY : helloworld.cpp.s
+
+iostream.o: iostream.cpp.o
+
+.PHONY : iostream.o
+
+# target to build an object file
+iostream.cpp.o:
+	$(MAKE) -f CMakeFiles/iostream.dir/build.make CMakeFiles/iostream.dir/iostream.cpp.o
+.PHONY : iostream.cpp.o
+
+iostream.i: iostream.cpp.i
+
+.PHONY : iostream.i
+
+# target to preprocess a source file
+iostream.cpp.i:
+	$(MAKE) -f CMakeFiles/iostream.dir/build.make CMakeFiles/iostream.dir/iostream.cpp.i
+.PHONY : iostream.cpp.i
+
+iostream.s: iostream.cpp.s
+
+.PHONY : iostream.s
+
+# target to generate assembly for a file
+iostream.cpp.s:
+	$(MAKE) -f CMakeFiles/iostream.dir/build.make CMakeFiles/iostream.dir/iostream.cpp.s
+.PHONY : iostream.cpp.s
 
 rand.o: rand.cpp.o
 
@@ -404,6 +444,7 @@ help:
 	@echo "... sizeof"
 	@echo "... variables"
 	@echo "... helloworld"
+	@echo "... iostream"
 	@echo "... basic"
 	@echo "... class"
 	@echo "... rebuild_cache"
@@ -417,6 +458,9 @@ help:
 	@echo "... helloworld.o"
 	@echo "... helloworld.i"
 	@echo "... helloworld.s"
+	@echo "... iostream.o"
+	@echo "... iostream.i"
+	@echo "... iostream.s"
 	@echo "... rand.o"
 	@echo "... rand.i"
 	@echo "... rand.s"

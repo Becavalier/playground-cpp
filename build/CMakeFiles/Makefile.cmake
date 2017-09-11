@@ -50,6 +50,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/sizeof.dir/DependInfo.cmake"
   "CMakeFiles/variables.dir/DependInfo.cmake"
   "CMakeFiles/helloworld.dir/DependInfo.cmake"
+  "CMakeFiles/iostream.dir/DependInfo.cmake"
   "CMakeFiles/basic.dir/DependInfo.cmake"
   "CMakeFiles/class.dir/DependInfo.cmake"
   "CMakeFiles/rand.dir/DependInfo.cmake"

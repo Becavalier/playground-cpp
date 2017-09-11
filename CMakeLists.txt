@@ -33,6 +33,11 @@ add_executable(struct ${STRUCT_SRC_LIST})
 set(VARIABLES_SRC_LIST variables.cpp)
 add_executable(variables ${VARIABLES_SRC_LIST})
 
+set(VARIABLES_SRC_LIST iostream.cpp)
+add_executable(iostream ${VARIABLES_SRC_LIST})
+
+set(VARIABLES_SRC_LIST string.cpp)
+add_executable(string ${VARIABLES_SRC_LIST})
 
 # Debug info
 message("PROJECT_SOURCE_DIR ->" ${PROJECT_SOURCE_DIR})

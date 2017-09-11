@@ -69,7 +69,7 @@ CMAKE_BINARY_DIR = /Users/jason/Desktop/Repo/playground-cpp/build
 CMakeFiles/struct.dir/all:
 	$(MAKE) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/depend
 	$(MAKE) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles --progress-num=11,12 "Built target struct"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles --progress-num=13,14 "Built target struct"
 .PHONY : CMakeFiles/struct.dir/all
 
 # Include target in all.
@@ -106,7 +106,7 @@ clean: CMakeFiles/struct.dir/clean
 CMakeFiles/sizeof.dir/all:
 	$(MAKE) -f CMakeFiles/sizeof.dir/build.make CMakeFiles/sizeof.dir/depend
 	$(MAKE) -f CMakeFiles/sizeof.dir/build.make CMakeFiles/sizeof.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles --progress-num=9,10 "Built target sizeof"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles --progress-num=11,12 "Built target sizeof"
 .PHONY : CMakeFiles/sizeof.dir/all
 
 # Include target in all.
@@ -143,7 +143,7 @@ clean: CMakeFiles/sizeof.dir/clean
 CMakeFiles/variables.dir/all:
 	$(MAKE) -f CMakeFiles/variables.dir/build.make CMakeFiles/variables.dir/depend
 	$(MAKE) -f CMakeFiles/variables.dir/build.make CMakeFiles/variables.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles --progress-num=13,14 "Built target variables"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles --progress-num=15,16 "Built target variables"
 .PHONY : CMakeFiles/variables.dir/all
 
 # Include target in all.
@@ -207,6 +207,43 @@ CMakeFiles/helloworld.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/helloworld.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/iostream.dir
+
+# All Build rule for target.
+CMakeFiles/iostream.dir/all:
+	$(MAKE) -f CMakeFiles/iostream.dir/build.make CMakeFiles/iostream.dir/depend
+	$(MAKE) -f CMakeFiles/iostream.dir/build.make CMakeFiles/iostream.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles --progress-num=7,8 "Built target iostream"
+.PHONY : CMakeFiles/iostream.dir/all
+
+# Include target in all.
+all: CMakeFiles/iostream.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/iostream.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/iostream.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles 0
+.PHONY : CMakeFiles/iostream.dir/rule
+
+# Convenience name for target.
+iostream: CMakeFiles/iostream.dir/rule
+
+.PHONY : iostream
+
+# clean rule for target.
+CMakeFiles/iostream.dir/clean:
+	$(MAKE) -f CMakeFiles/iostream.dir/build.make CMakeFiles/iostream.dir/clean
+.PHONY : CMakeFiles/iostream.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/iostream.dir/clean
 
 .PHONY : clean
 
@@ -291,7 +328,7 @@ clean: CMakeFiles/class.dir/clean
 CMakeFiles/rand.dir/all:
 	$(MAKE) -f CMakeFiles/rand.dir/build.make CMakeFiles/rand.dir/depend
 	$(MAKE) -f CMakeFiles/rand.dir/build.make CMakeFiles/rand.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles --progress-num=7,8 "Built target rand"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles --progress-num=9,10 "Built target rand"
 .PHONY : CMakeFiles/rand.dir/all
 
 # Include target in all.
