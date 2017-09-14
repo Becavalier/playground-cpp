@@ -69,7 +69,7 @@ CMAKE_BINARY_DIR = /Users/jason/Desktop/Repo/playground-cpp/build
 CMakeFiles/struct.dir/all:
 	$(MAKE) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/depend
 	$(MAKE) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles --progress-num=13,14 "Built target struct"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles --progress-num=15,16 "Built target struct"
 .PHONY : CMakeFiles/struct.dir/all
 
 # Include target in all.
@@ -96,6 +96,43 @@ CMakeFiles/struct.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/struct.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/string.dir
+
+# All Build rule for target.
+CMakeFiles/string.dir/all:
+	$(MAKE) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/depend
+	$(MAKE) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles --progress-num=13,14 "Built target string"
+.PHONY : CMakeFiles/string.dir/all
+
+# Include target in all.
+all: CMakeFiles/string.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/string.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/string.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles 0
+.PHONY : CMakeFiles/string.dir/rule
+
+# Convenience name for target.
+string: CMakeFiles/string.dir/rule
+
+.PHONY : string
+
+# clean rule for target.
+CMakeFiles/string.dir/clean:
+	$(MAKE) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/clean
+.PHONY : CMakeFiles/string.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/string.dir/clean
 
 .PHONY : clean
 
@@ -143,7 +180,7 @@ clean: CMakeFiles/sizeof.dir/clean
 CMakeFiles/variables.dir/all:
 	$(MAKE) -f CMakeFiles/variables.dir/build.make CMakeFiles/variables.dir/depend
 	$(MAKE) -f CMakeFiles/variables.dir/build.make CMakeFiles/variables.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles --progress-num=15,16 "Built target variables"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles --progress-num=17,18 "Built target variables"
 .PHONY : CMakeFiles/variables.dir/all
 
 # Include target in all.

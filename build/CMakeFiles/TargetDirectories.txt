@@ -1,5 +1,6 @@
 /Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles/edit_cache.dir
 /Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles/struct.dir
+/Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles/string.dir
 /Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles/sizeof.dir
 /Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles/variables.dir
 /Users/jason/Desktop/Repo/playground-cpp/build/CMakeFiles/helloworld.dir

@@ -127,6 +127,19 @@ struct/fast:
 .PHONY : struct/fast
 
 #=============================================================================
+# Target rules for targets named string
+
+# Build rule for target.
+string: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 string
+.PHONY : string
+
+# fast build rule for target.
+string/fast:
+	$(MAKE) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/build
+.PHONY : string/fast
+
+#=============================================================================
 # Target rules for targets named sizeof
 
 # Build rule for target.
@@ -379,6 +392,33 @@ sizeof.cpp.s:
 	$(MAKE) -f CMakeFiles/sizeof.dir/build.make CMakeFiles/sizeof.dir/sizeof.cpp.s
 .PHONY : sizeof.cpp.s
 
+string.o: string.cpp.o
+
+.PHONY : string.o
+
+# target to build an object file
+string.cpp.o:
+	$(MAKE) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/string.cpp.o
+.PHONY : string.cpp.o
+
+string.i: string.cpp.i
+
+.PHONY : string.i
+
+# target to preprocess a source file
+string.cpp.i:
+	$(MAKE) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/string.cpp.i
+.PHONY : string.cpp.i
+
+string.s: string.cpp.s
+
+.PHONY : string.s
+
+# target to generate assembly for a file
+string.cpp.s:
+	$(MAKE) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/string.cpp.s
+.PHONY : string.cpp.s
+
 struct.o: struct.cpp.o
 
 .PHONY : struct.o
@@ -441,6 +481,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... struct"
+	@echo "... string"
 	@echo "... sizeof"
 	@echo "... variables"
 	@echo "... helloworld"
@@ -467,6 +508,9 @@ help:
 	@echo "... sizeof.o"
 	@echo "... sizeof.i"
 	@echo "... sizeof.s"
+	@echo "... string.o"
+	@echo "... string.i"
+	@echo "... string.s"
 	@echo "... struct.o"
 	@echo "... struct.i"
 	@echo "... struct.s"
