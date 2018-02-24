@@ -62,7 +62,7 @@ int main()
   constexpr int *q1 = nullptr;
   int *const q2 = nullptr;
 
-  // cosntexpr int l = 33;
+  // constexpr int l = 33;
   // int m = 9;
   constexpr const int *p4 = &l;
   constexpr int *pl = &m;
