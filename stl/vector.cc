@@ -1,9 +1,11 @@
 #include <vector>
+#include <string>
 #include <iostream>
 
 using namespace std;
 
 int main (int argc, char *argv[]) {
+    // "vector" is a kind of template;
     vector<int> vec;
     int i;
 
@@ -34,6 +36,17 @@ int main (int argc, char *argv[]) {
     cout << "at: " << vec.at(2) << endl;
     cout << "front: " << vec.front() << endl;
     cout << "back: " << vec.back() << endl;
+
+
+    // Initialization
+    vector<int> svec;
+    vector<int> ivec = {1, 2, 3, 4};
+    vector<float> fvec(10, 1.1f);
+    vector<string> stvec(10);
+
+    vector<int>::size_type volume = ivec.size();
+    cout << volume << endl;
+
 
     return 0;
 }
