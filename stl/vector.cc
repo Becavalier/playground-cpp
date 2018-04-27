@@ -47,6 +47,9 @@ int main (int argc, char *argv[]) {
     vector<int>::size_type volume = ivec.size();
     cout << volume << endl;
 
+    // Construct a vector througt array;
+    int int_arr[] = {0, 1, 2, 3, 4, 5};
+    vector<int> ivec2(begin(int_arr), end(int_arr));
 
     return 0;
 }
