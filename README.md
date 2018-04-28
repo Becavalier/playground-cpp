@@ -1,2 +1,2 @@
 # playground-cpp
-Playground for c++ programming.
+Playground for c++ programming, trivial stuffs.
