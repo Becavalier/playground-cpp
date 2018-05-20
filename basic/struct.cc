@@ -3,12 +3,15 @@
 
 using namespace std;
 
+
+// "Aggregate Class"
 struct SalesData {
   string bookNo;
   unsigned units_sold;
   double revenue;
 };
 
+// Not a "Aggregate Class";
 struct Person {
   Person(int age, string name) {
     this->age = age;
