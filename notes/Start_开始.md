@@ -1,6 +1,6 @@
-##第一章 开始
+## 第一章 开始
 
-####1、四个标准输入输出对象
+#### 1、四个标准输入输出对象
 
 ```c++
 #include <iostream>
@@ -16,6 +16,5 @@ int main (int argc, char **argv) {
 	
   return 0;
 }
-
 ```
 
