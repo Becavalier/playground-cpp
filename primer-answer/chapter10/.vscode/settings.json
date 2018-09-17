@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "iterator": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "vector": "cpp",
+        "__bit_reference": "cpp",
+        "algorithm": "cpp",
+        "bitset": "cpp",
+        "chrono": "cpp",
+        "__string": "cpp",
+        "deque": "cpp",
+        "__split_buffer": "cpp",
+        "forward_list": "cpp",
+        "initializer_list": "cpp"
+    }
+}
